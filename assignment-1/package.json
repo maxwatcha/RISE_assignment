@@ -1,0 +1,20 @@
+{
+  "name": "assignment",
+  "version": "1.0.0",
+  "description": "",
+  "main": "Calculator.js",
+  "type": "module",
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "mocha": "^10.2.0",
+    "nyc": "^15.1.0"
+  },
+  "scripts": {
+    "test": "mocha --recursive"
+  },
+  "dependencies": {
+    "chai": "^4.3.7",
+    "express": "^4.18.2"
+  }
+}
